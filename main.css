@@ -12,13 +12,16 @@ body {
 
 section {
   text-align: center;
-  margin-bottom: 40px;
+  margin-bottom: 60px;
 }
 
 table {
   margin: 0 auto;
+  border-collapse: collapse;
 }
-
+tbody {
+  text-align: center;
+}
 caption {
   font-weight: bold;
   font-size: 20px;
@@ -26,12 +29,6 @@ caption {
   margin-bottom: 5px;
 }
 
-#semester-table {
-  border-collapse: collapse;
-}
-#semester-table tbody {
-  text-align: center;
-}
 #semester-table th,
 #semester-table td {
   border: 1px solid lightgrey;
@@ -70,4 +67,49 @@ tr:last-child td:last-child {
 
 .bottom-text {
   margin-top: 5px;
+}
+
+#product-table {
+  border-collapse: collapse;
+}
+#product-table th,
+#product-table td {
+  border: 1px solid #6f7f97;
+  padding: 15px 30px;
+}
+#product-table th {
+  background-color: #a0bbf2;
+}
+#product-table tr:nth-child(odd) {
+  background-color: #d1e0ff;
+}
+#product-table tr:nth-child(even) {
+  background-color: #b3c8f5;
+}
+#product-table th:first-child {
+  border-top-color: #fff;
+  border-left-color: #fff;
+  background-color: #fff;
+}
+#product-table tr > td:first-child {
+  font-weight: bold;
+  text-align: left;
+  padding-right: 100px;
+}
+
+#day6-table th,
+#day6-table td {
+  border: 1.5px solid #78a6ab;
+  padding: 20px 40px;
+}
+
+#day6-table th {
+  background-color: #78a6ab;
+  color: #fff;
+}
+
+#day6-table td {
+  color: #78a6ab;
+  font-weight: bold;
+  font-size: 20px;
 }
