@@ -34,31 +34,25 @@ caption {
   border: 1px solid lightgrey;
   padding: 15px 20px;
 }
-#semester-table th {
-  border-top-color: transparent;
-}
-#semester-table td {
-  color: grey;
-  border-top-color: transparent;
-}
 #semester-table th:first-child {
   border-top-left-radius: 10px;
-  border-left-color: transparent;
 }
 #semester-table th:last-child {
   border-top-right-radius: 10px;
-  border-right-color: transparent;
+}
+#semester-table td {
+  color: grey;
 }
 #semester-table thead {
   background-color: #2a64f6;
   color: #fff;
 }
-/* tr:last-child td:first-child {
-  border-bottom-left-radius: 10px;
+#semester-table {
+  border-collapse: collapse;
+  border-radius: 10px;
+  border-style: hidden;
+  box-shadow: 0 0 0 1px lightgrey;
 }
-tr:last-child td:last-child {
-  border-bottom-right-radius: 10px;
-} */
 
 .course {
   color: #2a64f6;
